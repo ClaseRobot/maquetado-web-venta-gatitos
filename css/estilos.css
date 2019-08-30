@@ -148,3 +148,25 @@ nav li a:hover {
     margin: 0px 5px 100px 5px;
     box-shadow: 4px 4px 8px #8d8d8f;
 }
+
+/* ------------------------ Footer */
+
+footer {
+ background: #313337;
+ padding: 10px;   
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: var(--white-color);
+}
