@@ -103,6 +103,7 @@ nav li a:hover {
     display: flex;
     justify-content: center;
     padding: 20px;
+    color: var(--black-color);
 }
 
 .feature {
@@ -124,4 +125,26 @@ nav li a:hover {
 .feature h1 {
     padding-top: 15px;
     font-size: 17px;
+}
+
+/* ------------------ Menciones */
+
+.mencion_title {
+    border-top: solid #e6e5e9 1px;
+    padding: 3%;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.menciones {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--black-color);
+}
+
+.mencion {
+    /* border: 1px solid red; */
+    margin: 0px 5px 100px 5px;
+    box-shadow: 4px 4px 8px #8d8d8f;
 }
