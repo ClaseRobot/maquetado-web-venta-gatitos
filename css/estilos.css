@@ -97,3 +97,31 @@ nav li a:hover {
     background-color: #5e9e22;
 }
 
+/* -------------- Features */
+
+.features {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feature {
+    max-width: 200px;
+    padding: 10px;
+    margin: 200px 50px 100px 50px;
+    text-align: center;
+}
+
+.feature .content {
+    padding: 10px;
+}
+
+.feature img {
+    max-height: 115px;
+    max-width: 140px;
+}
+
+.feature h1 {
+    padding-top: 15px;
+    font-size: 17px;
+}
