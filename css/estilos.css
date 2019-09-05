@@ -8,6 +8,7 @@
     --normal: 12px;
     /* Espaciado */
     --space: 10px;
+    --space-2: 20px;
     --box: 0px 0 2px 1px #e6e5e9;
 }
 
@@ -18,6 +19,15 @@ html, body {
     margin: 0px;
     font-size: var(--normal);
     font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    color: var(--black-color);
+}
+
+label {
+    font-size: var(--normal);
+    padding-bottom: 5px;
 }
 
 nav {
@@ -147,6 +157,77 @@ nav li a:hover {
     /* border: 1px solid red; */
     margin: 0px 5px 100px 5px;
     box-shadow: 4px 4px 8px #8d8d8f;
+}
+
+/* ------------------------ Venta */
+.venta_container {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0 400px 0;
+}
+
+.venta {
+    box-shadow: var(--box);
+    text-align: center;
+    max-width: 300px;
+    margin-right: 5px;
+}
+
+/* ----------------------- Formulario */
+
+.form_venta {
+    background-color: var(--white-color);
+    box-shadow: var(--box);
+    padding: var(--space-2);
+    margin-left: 5px;
+}
+
+.form_venta label {
+    font-size: 1.1em;
+    color: var(--black-color);
+}
+
+.form_venta form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form_venta input {
+    border: 0;
+}
+
+.form_venta .field {
+    border: solid 1px #ccc;
+    padding: var(--space);
+    margin-bottom: 10px;
+}
+
+.form_venta .field:focus {
+    border: 1px solid var(--green-color);
+}
+
+.btn {
+    border-radius: 2px;
+    display: inline-block;
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    border: 0;
+    margin-top: 10px;
+}
+
+.btn-green {
+    color: var(--white-color);
+    background-color: var(--green-color);
+}
+
+.btn-green:hover {
+    background-color: #5e9e22;
+}
+
+.btn-green:active {
+    background-color: #29962A;
 }
 
 /* ------------------------ Footer */
