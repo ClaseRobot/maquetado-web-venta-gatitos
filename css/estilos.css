@@ -215,6 +215,7 @@ nav li a:hover {
     font-size: var(--normal);
     border: 0;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .btn-green {
