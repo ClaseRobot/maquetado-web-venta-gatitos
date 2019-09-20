@@ -252,3 +252,9 @@ footer ul li a {
     text-decoration: none;
     color: var(--white-color);
 }
+
+/* Not found */
+
+.content_paypal .not_found {
+    min-width: 800px;
+}
