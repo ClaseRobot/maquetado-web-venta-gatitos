@@ -253,6 +253,10 @@ footer ul li a {
     color: var(--white-color);
 }
 
+.contact a {
+    color: var(--green-color);
+}
+
 /* Not found */
 
 .content_paypal .not_found {
